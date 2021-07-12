@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .fieldset_legend_orange{
+            text-align: center;
+            text-transform: uppercase;
+
+            background-color: orange;
+            color: yellow;
+            
+            height: 40px;
+            font-size: 20px;
+
+            padding: 10px 10px 0px 10px;
+        }
+        .fieldset_legend_default{
+            text-align: center;
+            text-transform: uppercase;
+
+            font-size: 20px;
+            width: 500px;
+            
+            margin: auto;
+        }
+
+        .table_default {
+            font-family: 'Times New Roman', Times, serif;
+            border: 1px solid #b8b5b5;
+            padding: 5px;
+            border-spacing: 7px;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .th_default{
+            text-align: center;
+            border: 1px solid #666666;
+            text-transform: uppercase;
+            background-color: #e0e0e0;
+            padding: 15px;        
+        }
+
+        .checkbox_center{
+            text-indent: 10px;
+            border: 1px solid #b8b5b5;
+            height: 20px;
+            padding: 5px;
+
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table_data_default{
+            text-indent: 10px;
+            border: 1px solid #b8b5b5;
+            height: 20px;
+            padding: 5px;           
+        }
+
+        .table_data_keyword{
+            text-indent: 10px;
+            border: 1px solid #b8b5b5;
+            height: 20px;
+            padding: 5px;
+            color: green;
+        }
+        .table_data_explain_keyword{
+            text-indent: 10px;
+            border: 1px solid #b8b5b5;
+            height: 20px;
+            padding: 5px;
+            color: grey;
+        }
+        .code_default{
+            color: gray;
+            background-color: whitesmoke;
+            padding: 2px;
+        }     
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend class="fieldset_legend_orange">
+            HTML FORM <span style="color: white">- attribute</span>
+        </legend>
+        <table class="table_default" style="width: 1500px;">
+            <tr>
+                <th class="th_default">order</th>
+                <th class="th_default">STATUS</th>
+                <th class="th_default">attribute</th>
+                <th class="th_default">vietnamese</th>
+                <th class="th_default">description</th>
+                <th class="th_default">vietnamese</th>
+            </tr>
+            <tr>
+                <td class="table_data_default">1</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">action</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_keyword">Specifies the character encodings used for form submission</td>
+                <td class="table_data_explain_keyword">Chỉ định các mã hóa ký tự được sử dụng để gửi biểu mẫu</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">2</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">name</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_keyword">Specifies the name of the form</td>
+                <td class="table_data_explain_keyword">Chỉ định tên của biểu mẫu</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">3</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">method</td>
+                <td class="table_data_explain_keyword">Phương thức</td>
+                <td class="table_data_keyword">Specifies the HTTP method to use when sending form-data</td>
+                <td class="table_data_explain_keyword">Chỉ định phương thức HTTP để sử dụng khi gửi dữ liệu biểu mẫu</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">4</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">novalidate</td>
+                <td class="table_data_explain_keyword">Không hợp lệ</td>
+                <td class="table_data_keyword">Specifies that the form should not be validated when submitted</td>
+                <td class="table_data_explain_keyword">Chỉ định rằng biểu mẫu sẽ không được xác thực khi được gửi</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">5</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">rel</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_keyword">Specifies the relationship between a linked resource and the current document</td>
+                <td class="table_data_explain_keyword">Chỉ định mối quan hệ giữa tài nguyên được liên kết và tài liệu hiện tại</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">6</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">target</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_keyword">Specifies where to display the response that is received after submitting the form</td>
+                <td class="table_data_explain_keyword">Chỉ định nơi hiển thị phản hồi nhận được sau khi gửi biểu mẫu</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">7</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">autocomplete</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_keyword">Specifies whether a form should have autocomplete on or off</td>
+                <td class="table_data_explain_keyword">Chỉ định xem biểu mẫu có nên bật hay tắt tính năng tự động hoàn thành hay không</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">8</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">accept-charset</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_keyword">Specifies the character encodings used for form submission</td>
+                <td class="table_data_explain_keyword">Chỉ định các mã hóa ký tự được sử dụng để gửi biểu mẫu</td>
+            </tr>
+            <tr>
+                <td class="table_data_default">9</td>
+                <td class="checkbox_center"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td class="table_data_keyword">enctype</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_keyword">Specifies how the form-data should be encoded when submitting it to the server (only for method="post")</td>
+                <td class="table_data_explain_keyword">Chỉ định cách dữ liệu biểu mẫu sẽ được mã hóa khi gửi đến máy chủ (chỉ dành cho method = "post")</td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <br>
+    <br>
+    <br>
+
+    <fieldset>
+        <legend class="fieldset_legend_orange">
+            THE ACTION <span style="color: white;">ATTRIBUTE</span>
+        </legend>
+        <table class="table_default" style="width: 1500px;">
+            <tr>
+                <th class="th_default" style="width: 525px">ENGLISH</th>
+                <th class="th_default" style="width: 525px;">VIETNAMESE</th>
+                <th class="th_default" style="width: 150px;">WORD - 01</th>
+                <th class="th_default" style="width: 150px;">WORD - 02</th>
+                <th class="th_default" style="width: 150px;">WORD - 03</th>
+            </tr>
+            <tr>
+                <td class="table_data_keyword">The <code>action</code> attribute defines the action to be performed when the form is submitted.</td>
+                <td class="table_data_explain_keyword">Thuộc tính action xác định hành động sẽ được thực hiện khi biểu mẫu được gửi.</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+            </tr>
+            <tr>
+                <td class="table_data_keyword">Usually, the form data is sent to a file on the server when the user clicks on the submit button.</td>
+                <td class="table_data_explain_keyword">Thông thường, dữ liệu biểu mẫu được gửi đến tệp trên máy chủ khi người dùng nhấp vào nút gửi.</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+            </tr>
+            <tr>
+                <td class="table_data_keyword">Tip: If the action attribute is omitted, the action is set to the current page.</td>
+                <td class="table_data_explain_keyword">Mẹo: Nếu thuộc tính hành động bị bỏ qua, hành động sẽ được đặt thành trang hiện tại.</td>
+                <td class="table_data_explain_keyword">omit</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <fieldset>
+        <legend class="fieldset_legend_orange">
+            THE TARGET <span style="color: white;">ATTRIBUTE</span>
+        </legend>
+        <table class="table_default" style="width: 1500px;">
+            <tr>
+                <th class="th_default" style="width: 525px">ENGLISH</th>
+                <th class="th_default" style="width: 525px;">VIETNAMESE</th>
+                <th class="th_default" style="width: 150px;">WORD - 01</th>
+                <th class="th_default" style="width: 150px;">WORD - 02</th>
+                <th class="th_default" style="width: 150px;">WORD - 03</th>
+            </tr>
+            <tr>
+                <td class="table_data_keyword">The target attribute specifies where to display the response that is received after submitting the form.</td>
+                <td class="table_data_explain_keyword">Thuộc tính target chỉ định nơi hiển thị phản hồi nhận được sau khi gửi biểu mẫu.</td>
+                <td class="table_data_explain_keyword">specify</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+            </tr>
+            <tr>
+                <td class="table_data_keyword">The target attribute can have one of the following values</td>
+                <td class="table_data_explain_keyword">Thuộc tính target có thể có một trong các giá trị sau</td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+                <td class="table_data_explain_keyword"></td>
+            </tr>
+            <tr>
+                <td class="table_data_default" colspan="5" style="padding: 30px;">
+                    <table class="table_default" style="width: 1000px">
+                        <caption style="color:orange;text-transform: uppercase;font-size: 16px;padding:10px">TARGET - VALUE</caption>
+                        <tr>
+                            <th class="th_default">VALUE</th>
+                            <th class="th_default">VIETNAMESE</th>
+                            <th class="th_default">DESCRIPTION</th>
+                            <th class="th_default">VIETNAMESE</th>
+                        </tr>
+                        <tr>
+                            <td class="table_data_keyword">_blank</td>
+                            <td class="table_data_explain_keyword">Chỗ trống</td>
+                            <td class="table_data_keyword">The response is displayed in a new window or tab</td>
+                            <td class="table_data_explain_keyword">Phản hồi được hiển thị trong một cửa sổ hoặc tab mới</td>
+                        </tr>
+                        <tr>
+                            <td class="table_data_keyword">_self</td>
+                            <td class="table_data_explain_keyword"></td>
+                            <td class="table_data_keyword">The response is displayed in the current window</td>
+                            <td class="table_data_explain_keyword">Phản hồi được hiển thị trong cửa sổ hiện tại</td>
+                        </tr>
+                        <tr>
+                            <td class="table_data_keyword">_parent</td>
+                            <td class="table_data_explain_keyword"></td>
+                            <td class="table_data_keyword">The response is displayed in the parent frame</td>
+                            <td class="table_data_explain_keyword">Phản hồi được hiển thị trong khung chính</td>
+                        </tr>
+                        <tr>
+                            <td class="table_data_keyword">_top</td>
+                            <td class="table_data_explain_keyword"></td>
+                            <td class="table_data_keyword">The response is displayed in the full body of the window</td>
+                            <td class="table_data_explain_keyword">Phản hồi được hiển thị trong toàn bộ phần nội dung của cửa sổ</td>
+                        </tr>
+                        <tr>
+                            <td class="table_data_keyword">framename</td>
+                            <td class="table_data_explain_keyword"></td>
+                            <td class="table_data_keyword">The response is displayed in a named iframe</td>
+                            <td class="table_data_explain_keyword">Phản hồi được hiển thị trong iframe được đặt tên</td>
+                        </tr>
+                    </table>
+                    <p>The default value is <code class="code_default">_self</code></p>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
