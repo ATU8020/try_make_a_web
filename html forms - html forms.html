@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        .label_introduce_form{
+            display: inline-block;
+            min-width: 175px;
+        }
+        .label_input_text{
+
+            font-size: 30px;
+            display: inline-block;
+            min-width: 150px;
+
+            padding: 12px 12px 0px 0px;
+        }
+        .label_input_radio{
+            font-size: 16px;
+            display: inline-block;
+            margin: 0px 10px 10px 10px;
+        }
+        .label_input_checkbox{
+            font-size: 16px;
+            display: inline-block;
+            margin: 0px 10px 10px 10px;
+        }
+
+        input[type=text]{
+
+            height: 40px;
+            width: 250px;
+            padding: 5px 5px;
+
+            border: 2px solid purple;
+            border-radius: 4px;
+            
+            background-color: white;
+
+            box-sizing: border-box;
+
+            background-image: url('https://image0.flaticon.com/icons/png/32/4993/4993677.png');
+            background-repeat: no-repeat;
+        }
+
+        input[type=text]:focus{
+            background-color: rgb(253, 246, 230);
+        }
+
+        code{
+            font-size: 16px;
+            color: white;
+            background-color: rgb(255, 182, 87);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend style="text-align: center">
+            Dưới đây là một số mẫu (FORM) mà chúng ta sẽ đi tìm hiểu
+        </legend>
+        <form>
+            <label class="label_introduce_form">INPUT - BUTTON</label>
+            <input type="button" value="BUTTON">
+            <br><br>
+            <label class="label_introduce_form">INPUT - RANGE</label>
+            <input type="range" name="RANGE" id="1">
+            <br><br>
+            <label class="label_introduce_form">INPUT - CHECKBOX</label>
+            <input type="checkbox" name="CHECKBOX" id="2">
+            <br><br>
+            <label class="label_introduce_form">INPUT - RADIO</label>
+            <input type="radio" name="RADIO" id="3">
+            <br><br>
+            <label class="label_introduce_form">INPUT - SEARCH</label>
+            <input type="search" name="SEARCH" id="4">
+            <br><br>
+            <label class="label_introduce_form">INPUT - SUBMIT</label>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="text-align: center">
+            Sau đây, chúng ta sẽ tìm hiểu về thẻ (element) <span><code style="background-color: gray">input</code></span> với thuộc tính (attribute) <span><code>text</code></span>
+            <br>
+        </legend>
+        <form>
+            <label class="label_input_text" for="first_name">First name</label><input type="text" name="first_name" id="name">
+            <br>
+            <label class="label_input_text" for="last_name">Last name</label><input type="text" name="last_name" id="name">
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="text-align: center;">
+            Tiếp đến, chúng ta sẽ tìm hiểu về thẻ (element) <span><code style="background-color: gray;">input</code></span> với thuộc tính (attribute) <span><code>radio</code></span>
+        </legend>
+        <form>
+            <input type="radio" name="menu" id="food"><label class="label_input_radio" for="menu">Apple</label>
+            <br>
+            <input type="radio" name="menu" id="food"><label class="label_input_radio" for="menu">Orange</label>
+            <br>
+            <input type="radio" name="menu" id="food"><label class="label_input_radio" for="menu">Mango</label>
+            <br>
+            <input type="radio" name="menu" id="food"><label class="label_input_radio" for="menu">Grape</label>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend style="text-align: center">
+            Tiếp đến, chúng ta sẽ tìm hiểu về thẻ (element) <span><code style="background-color: gray;">input</code></span> với thuộc tính (attribute) <span><code>checkbox</code></span>            
+        </legend>
+        <form>
+            <input type="checkbox" name="choice" id="selection"><label class="label_input_checkbox" for="selection">Phương án A</label>
+            <br>
+            <input type="checkbox" name="choice" id="selection"><label class="label_input_checkbox" for="selection">Phương án B</label>
+            <br>
+            <input type="checkbox" name="choice" id="selection"><label class="label_input_checkbox" for="selection">Phương án C</label>
+            <br>
+            <input type="checkbox" name="choice" id="selection"><label class="label_input_checkbox" for="selection">Phương án D</label>
+
+        </form>
+    </fieldset>
+
+    <input type="button" value="OK">
+</body>
+</html>
