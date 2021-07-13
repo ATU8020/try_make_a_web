@@ -1,6 +1,3 @@
-    <head>
-        <meta charset="UTF-8">
-        <style>
             table {
                 font-family: 'Times New Roman', Times, serif;
                 border: 1px solid #b8b5b5;
@@ -29,10 +26,8 @@
             .td_in_link_column{
                 color: green;
             }
-        </style>    
-    </head>
-    <body>
-        <table>
+            
+                    <table>
             <tr>
             <th>STT</th>
             <th>NAME</th>
@@ -58,5 +53,4 @@
                 <td><a href="https://atu8020.github.io/try_make_a_web/english%20contain%20audio%20image.html">english contain audio image.html</a></td>
                 <td class="td_in_link_column">https://atu8020.github.io/try_make_a_web/english%20contain%20audio%20image.html</td>
             </tr>
-        </table>    
-    </body> 
+        </table>  
