@@ -1,5 +1,3 @@
-<html>
-    <html lang="en"></html>
     <head>
         <meta charset="UTF-8">
         <style>
@@ -61,5 +59,4 @@
                 <td class="td_in_link_column">https://atu8020.github.io/try_make_a_web/english%20contain%20audio%20image.html</td>
             </tr>
         </table>    
-    </body>    
-</html>
+    </body> 
