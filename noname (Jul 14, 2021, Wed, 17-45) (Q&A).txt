@@ -1,0 +1,5 @@
+
+T: 1
+Q: https://atu8020.github.io/try_make_a_web/english%20contain%20audio%20image.html
+A: https://atu8020.github.io/try_make_a_web/english%20contain%20audio%20image.html
+
